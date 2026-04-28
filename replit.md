@@ -25,3 +25,7 @@ pnpm workspace monorepo using TypeScript. Each package manages its own dependenc
 - `pnpm --filter @workspace/api-server run dev` — run API server locally
 
 See the `pnpm-workspace` skill for workspace structure, TypeScript setup, and package details.
+
+## Artifacts
+
+- **canva-boss** (`artifacts/canva-boss`) — React + Vite landing page (Canva Boss). Brazilian marketing landing page for a Canva templates pack. Frontend-only, no backend or auth. Uses Tailwind v3 + shadcn/ui + react-router-dom + tanstack/react-query. Ported from Lovable on 2026-04-28.

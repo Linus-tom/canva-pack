@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "Canva Boss"
+version = "1.0.0"
+id = "artifacts/canva-boss"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 18122
+
+[services.development]
+run = "pnpm --filter @workspace/canva-boss run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/canva-boss", "run", "build" ]
+publicDir = "artifacts/canva-boss/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "18122"
+BASE_PATH = "/"
