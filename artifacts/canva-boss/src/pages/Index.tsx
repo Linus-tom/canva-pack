@@ -87,8 +87,8 @@ const SITES = [
   "https://projetotita.com/wp-content/uploads/2025/12/7-_3_.webp",
 ];
 
-const CHECKOUT_URL = "https://pay.kirvano.com/6fb3216e-900e-48e4-b703-0fdc480e4ccd";
-const BASIC_URL = "https://projetotita.com/ofertacb/";
+const CHECKOUT_URL = "https://pay.kirvano.com/bf80c29f-2f27-4e72-bd59-322714a12cc6";
+const BASIC_URL = "/oferta-especial";
 
 const CTAButton = ({ href = "#oferta", children, className = "" }: { href?: string; children: React.ReactNode; className?: string }) => (
   <a
@@ -127,7 +127,7 @@ const Index = () => {
           <div className="space-y-2 pt-4">
             <p className="text-base sm:text-lg">DE <span className="line-through text-muted-foreground">R$97,00</span></p>
             <p className="text-xl sm:text-2xl font-bold">POR APENAS</p>
-            <p className="text-6xl sm:text-7xl font-black text-[hsl(var(--price))] drop-shadow-[0_0_30px_hsl(51_100%_55%/0.4)]">R$17</p>
+            <p className="text-6xl sm:text-7xl font-black text-[hsl(var(--price))] drop-shadow-[0_0_30px_hsl(51_100%_55%/0.4)]">R$37</p>
             <p className="text-2xl sm:text-3xl font-extrabold text-cyan-glow">RISCO ZERO!</p>
             <p className="text-base sm:text-lg font-bold text-destructive uppercase">⏰ Mas você precisa agir rápido!</p>
           </div>
@@ -323,7 +323,7 @@ const Index = () => {
               <div className="pt-2 space-y-1">
                 <p className="line-through text-muted-foreground">Valor Total: R$297,00</p>
                 <p className="text-sm font-semibold">Hoje pagamento único…</p>
-                <p className="text-5xl font-black text-[hsl(var(--price))]">R$19,90</p>
+                <p className="text-5xl font-black text-[hsl(var(--price))]">R$37,00</p>
               </div>
               <CTAButton href={CHECKOUT_URL} className="w-full text-center block">
                 Sim, quero essa super oferta
