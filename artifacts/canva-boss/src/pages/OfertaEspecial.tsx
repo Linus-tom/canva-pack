@@ -12,7 +12,7 @@ const CHECK_ITEMS = [
 ];
 
 const BONUS_ITEMS = [
-  "Bônus 01: +700 Carrosséis Lendários",
+  "Bônus 01: +100 Carrosséis Lendários",
   "Bônus 02: Acesso a ContentBoss IA",
   "Bônus 03: Pack de Sites editáveis Canva",
   "Bônus 04: +11.000 Elementos 4K e 3D do Canva (Pack do Tigre)",
