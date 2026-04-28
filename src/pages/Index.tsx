@@ -1,5 +1,23 @@
 import { ArrowDown, Check, X, ShieldCheck, Zap, Infinity as InfinityIcon, Clock } from "lucide-react";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
+import { Marquee } from "@/components/Marquee";
+
+const ALL_ARTS_POOL = [
+  "https://projetotita.com/wp-content/uploads/2025/12/Copia-de-PACK-3-AGENCIA-3_11zon.webp",
+  "https://projetotita.com/wp-content/uploads/2025/12/Copia-de-PACK-3-AGENCIA-2.webp",
+  "https://projetotita.com/wp-content/uploads/2025/12/Copia-de-PACK-3-AGENCIA-1.webp",
+  "https://projetotita.com/wp-content/uploads/2025/12/12-@samuel.psd_11zon.webp",
+  "https://projetotita.com/wp-content/uploads/2025/12/JORDAN-compressed-1_11zon.webp",
+  "https://projetotita.com/wp-content/uploads/2025/12/HAMILTON2-compressed-1.webp",
+  "https://projetotita.com/wp-content/uploads/2025/12/beat-safter-compressed_11zon-1.webp",
+  "https://projetotita.com/wp-content/uploads/2025/12/Copia-de-Messi-1.webp",
+  "https://projetotita.com/wp-content/uploads/2025/12/Copia-de-bisseck.webp",
+  "https://projetotita.com/wp-content/uploads/2025/12/Copia-de-GAME-DAY.webp",
+  "https://projetotita.com/wp-content/uploads/2025/12/Copia-de-Enzo-Fernandez-Post-para-Instagram-45-1_11zon.webp",
+  "https://projetotita.com/wp-content/uploads/2025/12/Copia-de-INTERNACIONAL-VS-CRICIUMA-Post-para-Instagram-45-1_11zon.webp",
+  "https://projetotita.com/wp-content/uploads/2025/12/Copia-de-Masterpack.webp",
+  "https://projetotita.com/wp-content/uploads/2025/12/Copia-de-Sem-nome-1.webp",
+];
 
 const HERO = "https://projetotita.com/wp-content/uploads/2026/01/BOSS-1_11zon-1.webp";
 
@@ -137,101 +155,87 @@ const Index = () => {
       </header>
 
       {/* MAIS COMPLETO */}
-      <section className="py-16 px-4">
-        <div className="max-w-5xl mx-auto text-center space-y-6">
+      <section className="py-16 space-y-6">
+        <div className="max-w-5xl mx-auto text-center space-y-4 px-4">
           <SectionTitle accent>...O KIT MAIS COMPLETO DA INTERNET...</SectionTitle>
           <h3 className="text-xl sm:text-2xl md:text-3xl font-bold">É um kit de artes profissionais que servem para tudo!</h3>
           <p className="text-base sm:text-lg text-muted-foreground max-w-3xl mx-auto">
             Sabe aquela arte ultraeditada que você vê por aí e fica doido para ter uma igual? Está tudo aqui!
           </p>
+        </div>
 
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 pt-6">
-            {ART_GRID_1.map((src, i) => (
-              <img key={i} src={src} alt={`Arte ${i + 1}`} className="w-full aspect-[4/5] object-cover rounded-lg shadow-glow" loading="lazy" />
-            ))}
-          </div>
+        <div className="space-y-4">
+          <Marquee images={[...ART_GRID_1, ...ALL_ARTS_POOL]} duration={70} itemClassName="h-64 sm:h-72 md:h-80 aspect-[4/5]" />
+          <Marquee images={[...ALL_ARTS_POOL, ...ART_GRID_1].reverse()} reverse duration={85} itemClassName="h-64 sm:h-72 md:h-80 aspect-[4/5]" />
         </div>
       </section>
 
       {/* O QUE VAI RECEBER */}
-      <section className="py-16 px-4 bg-card/40">
-        <div className="max-w-6xl mx-auto space-y-8">
+      <section className="py-16 bg-card/40 space-y-6">
+        <div className="max-w-6xl mx-auto px-4">
           <SectionTitle accent>O QUE VOCÊ IRÁ RECEBER?</SectionTitle>
-
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
-            {ART_GRID_2.map((src, i) => (
-              <img key={i} src={src} alt={`Template ${i + 1}`} className="w-full aspect-[3/4] object-cover rounded-lg" loading="lazy" />
-            ))}
-          </div>
-
-          <ul className="grid sm:grid-cols-2 gap-4 max-w-3xl mx-auto pt-6">
-            {[
-              "+5.000 artes ultraeditadas de qualidade absurda",
-              "Edite no celular ou computador em minutos",
-              "Designs profissionais que atraem atenção",
-              "Economize com designer (pague uma vez e use pra sempre)",
-              "Conteúdo pronto todo mês (sem bloquear na criação)",
-            ].map((t) => (
-              <li key={t} className="flex items-start gap-3 bg-secondary/60 rounded-lg p-4">
-                <Check className="text-accent shrink-0 mt-0.5" size={22} />
-                <span>{t}</span>
-              </li>
-            ))}
-          </ul>
         </div>
+
+        <div className="space-y-4">
+          <Marquee images={ART_GRID_2} duration={60} itemClassName="h-72 sm:h-80 md:h-96 aspect-[3/4]" />
+          <Marquee images={[...ART_GRID_2].reverse()} reverse duration={75} itemClassName="h-72 sm:h-80 md:h-96 aspect-[3/4]" />
+        </div>
+
+        <ul className="grid sm:grid-cols-2 gap-4 max-w-3xl mx-auto pt-6 px-4">
+          {[
+            "+5.000 artes ultraeditadas de qualidade absurda",
+            "Edite no celular ou computador em minutos",
+            "Designs profissionais que atraem atenção",
+            "Economize com designer (pague uma vez e use pra sempre)",
+            "Conteúdo pronto todo mês (sem bloquear na criação)",
+          ].map((t) => (
+            <li key={t} className="flex items-start gap-3 bg-secondary/60 rounded-lg p-4">
+              <Check className="text-accent shrink-0 mt-0.5" size={22} />
+              <span>{t}</span>
+            </li>
+          ))}
+        </ul>
       </section>
 
       {/* CARROSSEL DE ARTES */}
-      <section className="py-16 px-4">
-        <div className="max-w-6xl mx-auto space-y-6 text-center">
+      <section className="py-16 space-y-6">
+        <div className="max-w-6xl mx-auto text-center space-y-4 px-4">
           <SectionTitle accent>ARTES TÃO PERFEITAS QUANTO AS DO PHOTOSHOP</SectionTitle>
           <p className="text-base sm:text-lg max-w-3xl mx-auto">
             Você vai ter acesso a todos os templates ultraeditados com ambientação e iluminação no Canva.
           </p>
-          <p className="text-sm text-muted-foreground">Arraste para o lado para ver as artes ultraeditadas e profissionais Canva. ⭣</p>
+          <p className="text-sm text-muted-foreground">Veja as artes ultraeditadas e profissionais no Canva. ⭣</p>
+        </div>
 
-          <div className="overflow-x-auto pb-4 -mx-4 px-4 snap-x snap-mandatory scroll-smooth">
-            <div className="flex gap-4 w-max">
-              {ART_CAROUSEL.map((src, i) => (
-                <img
-                  key={i}
-                  src={src}
-                  alt={`Modelo ${i + 1}`}
-                  className="snap-start w-[60vw] sm:w-64 md:w-72 aspect-[4/5] object-cover rounded-xl shadow-glow"
-                  loading="lazy"
-                />
-              ))}
-            </div>
-          </div>
+        <div className="space-y-4">
+          <Marquee images={ART_CAROUSEL} duration={90} itemClassName="h-64 sm:h-72 md:h-80 aspect-[4/5]" />
+          <Marquee images={[...ART_CAROUSEL].reverse()} reverse duration={110} itemClassName="h-64 sm:h-72 md:h-80 aspect-[4/5]" />
+          <Marquee images={[...ART_CAROUSEL, ...ALL_ARTS_POOL]} duration={130} itemClassName="h-64 sm:h-72 md:h-80 aspect-[4/5]" />
+        </div>
 
-          <div className="pt-4 space-y-2">
-            <p className="text-5xl font-black text-cyan-glow">100%</p>
-            <p className="text-xl font-bold">editável no Canva</p>
-          </div>
+        <div className="text-center space-y-2 pt-4">
+          <p className="text-5xl font-black text-cyan-glow">100%</p>
+          <p className="text-xl font-bold">editável no Canva</p>
+        </div>
 
-          <div className="pt-4">
-            <CTAButton href={CHECKOUT_URL}>Quero baixar os templates do Canva</CTAButton>
-          </div>
+        <div className="text-center pt-4">
+          <CTAButton href={CHECKOUT_URL}>Quero baixar os templates do Canva</CTAButton>
         </div>
       </section>
 
       {/* SITES BÔNUS */}
-      <section className="py-16 px-4 bg-card/40">
-        <div className="max-w-6xl mx-auto space-y-6 text-center">
+      <section className="py-16 bg-card/40 space-y-6">
+        <div className="max-w-6xl mx-auto text-center px-4">
           <h3 className="text-2xl sm:text-3xl font-bold">
             <span className="text-cyan-glow">BÔNUS:</span> Veja modelos de <span className="text-cyan-glow">Sites do Canva</span> que você receberá
           </h3>
-
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3 pt-4">
-            {SITES.map((src, i) => (
-              <img key={i} src={src} alt={`Site ${i + 1}`} className="w-full aspect-[5/8] object-cover rounded-lg" loading="lazy" />
-            ))}
-          </div>
-
-          <p className="text-muted-foreground pt-4">
-            Esses são alguns dos <strong className="text-foreground">sites editáveis que você vai receber no Canva Boss</strong>.
-          </p>
         </div>
+
+        <Marquee images={SITES} duration={70} itemClassName="h-80 sm:h-96 md:h-[28rem] aspect-[5/8]" />
+
+        <p className="text-muted-foreground text-center px-4">
+          Esses são alguns dos <strong className="text-foreground">sites editáveis que você vai receber no Canva Boss</strong>.
+        </p>
       </section>
 
       {/* O QUE ESPERAR */}
