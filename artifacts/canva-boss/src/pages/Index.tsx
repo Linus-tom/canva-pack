@@ -149,7 +149,7 @@ const Index = () => {
           <p className="italic text-muted-foreground pt-2">(Últimas horas com valor promocional)</p>
 
           <div id="oferta" className="pt-4">
-            <CTAButton href={BASIC_URL}>Quero baixar agora</CTAButton>
+            <CTAButton href="#ofertas">Quero baixar agora</CTAButton>
           </div>
         </div>
       </header>
@@ -219,7 +219,7 @@ const Index = () => {
         </div>
 
         <div className="text-center pt-4">
-          <CTAButton href={CHECKOUT_URL}>Quero baixar os templates do Canva</CTAButton>
+          <CTAButton href="#ofertas">Quero baixar os templates do Canva</CTAButton>
         </div>
       </section>
 
@@ -260,13 +260,13 @@ const Index = () => {
           </div>
 
           <div className="pt-6">
-            <CTAButton href={CHECKOUT_URL}>Sim, quero essa super oferta</CTAButton>
+            <CTAButton href="#ofertas">Sim, quero essa super oferta</CTAButton>
           </div>
         </div>
       </section>
 
       {/* OFERTAS */}
-      <section className="py-16 px-4 bg-card/40">
+      <section id="ofertas" className="py-16 px-4 bg-card/40">
         <div className="max-w-6xl mx-auto space-y-8">
           <SectionTitle accent>ESCOLHA A MELHOR OFERTA PARA VOCÊ</SectionTitle>
 
@@ -346,7 +346,7 @@ const Index = () => {
           <p className="text-muted-foreground">
             <strong>Nosso objetivo é simples e claro:</strong> te entregar tudo o que você precisa e já poder utilizar em poucos cliques.
           </p>
-          <CTAButton href={CHECKOUT_URL}>Quero ter acesso ao pacote!</CTAButton>
+          <CTAButton href="#ofertas">Quero ter acesso ao pacote!</CTAButton>
         </div>
       </section>
 
@@ -363,7 +363,7 @@ const Index = () => {
           </p>
           <p className="font-bold">Você receberá de volta cada centavo que pagou.</p>
           <p className="text-sm uppercase tracking-widest text-cyan-glow">Garanta seu acesso com 89% OFF!</p>
-          <CTAButton href={CHECKOUT_URL}>Quero ter acesso ao pacote!</CTAButton>
+          <CTAButton href="#ofertas">Quero ter acesso ao pacote!</CTAButton>
         </div>
       </section>
 
