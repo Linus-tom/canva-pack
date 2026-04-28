@@ -38,10 +38,11 @@ jobs:
         run: pnpm run build
 
       - name: Deploy to Cloudflare Pages
-        uses: cloudflare/wrangler-action@v3
-        with:
-          apiKey: ${{ secrets.CLOUDFLARE_API_KEY }}
-          accountId: 317b22b3fec9c91bcda434fb6ca778dd
-          command: pages deploy artifacts/canva-boss/dist/public --project-name=project-clone-master --branch=main
+        run: |
+          npm install -g wrangler
+          wrangler pages deploy artifacts/canva-boss/dist/public \
+            --project-name=project-clone-master \
+            --branch=main
         env:
+          CLOUDFLARE_API_KEY: ${{ secrets.CLOUDFLARE_API_KEY }}
           CLOUDFLARE_EMAIL: ${{ secrets.CLOUDFLARE_EMAIL }}
