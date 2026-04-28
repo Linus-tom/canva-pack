@@ -127,7 +127,7 @@ const Index = () => {
           <div className="space-y-2 pt-4">
             <p className="text-base sm:text-lg">DE <span className="line-through text-muted-foreground">R$97,00</span></p>
             <p className="text-xl sm:text-2xl font-bold">POR APENAS</p>
-            <p className="text-6xl sm:text-7xl font-black text-[hsl(var(--price))] drop-shadow-[0_0_30px_hsl(51_100%_55%/0.4)]">R$10</p>
+            <p className="text-6xl sm:text-7xl font-black text-[hsl(var(--price))] drop-shadow-[0_0_30px_hsl(51_100%_55%/0.4)]">R$17</p>
             <p className="text-2xl sm:text-3xl font-extrabold text-cyan-glow">RISCO ZERO!</p>
             <p className="text-base sm:text-lg font-bold text-destructive uppercase">⏰ Mas você precisa agir rápido!</p>
           </div>
@@ -275,7 +275,7 @@ const Index = () => {
             <div className="bg-secondary/60 border border-border rounded-2xl p-8 space-y-4">
               <p className="uppercase text-sm tracking-widest text-muted-foreground">Plano Básico</p>
               <p className="text-xl font-bold">Pagamento Único</p>
-              <p className="text-5xl font-black text-foreground">R$10</p>
+              <p className="text-5xl font-black text-foreground">R$17</p>
               <ul className="space-y-2 pt-2">
                 {["mini pacote de 400 artes", "Acesso Vitalício", "7 Dias de Garantia"].map((t) => (
                   <li key={t} className="flex items-center gap-2"><Check size={18} className="text-accent" />{t}</li>
