@@ -127,7 +127,7 @@ const Index = () => {
           <div className="space-y-2 pt-4">
             <p className="text-base sm:text-lg">DE <span className="line-through text-muted-foreground">R$97,00</span></p>
             <p className="text-xl sm:text-2xl font-bold">POR APENAS</p>
-            <p className="text-6xl sm:text-7xl font-black text-[hsl(var(--price))] drop-shadow-[0_0_30px_hsl(51_100%_55%/0.4)]">R$37</p>
+            <p className="text-6xl sm:text-7xl font-black text-[hsl(var(--price))] drop-shadow-[0_0_30px_hsl(51_100%_55%/0.4)]">R$17</p>
             <p className="text-2xl sm:text-3xl font-extrabold text-cyan-glow">RISCO ZERO!</p>
             <p className="text-base sm:text-lg font-bold text-destructive uppercase">⏰ Mas você precisa agir rápido!</p>
           </div>
@@ -149,7 +149,7 @@ const Index = () => {
           <p className="italic text-muted-foreground pt-2">(Últimas horas com valor promocional)</p>
 
           <div id="oferta" className="pt-4">
-            <CTAButton href={CHECKOUT_URL}>Quero baixar agora</CTAButton>
+            <CTAButton href={BASIC_URL}>Quero baixar agora</CTAButton>
           </div>
         </div>
       </header>
