@@ -395,8 +395,8 @@ const Index = () => {
       {/* FOOTER */}
       <footer className="py-10 px-4 border-t border-border text-center text-sm text-muted-foreground space-y-2">
         <p className="font-bold text-foreground">Direitos reservados</p>
-        <p>CANVA BOSS LTDA — 2026</p>
-        <p>Suporte: <a href="mailto:contato@projetotita.com" className="text-primary">contato@projetotita.com</a></p>
+        <p>CANVA PRO LTDA — 2026</p>
+        <p>Suporte: <a href="mailto:contato@projetotita.com" className="text-primary">suporte@agaf.shop</a></p>
         <div className="flex items-center justify-center gap-2 pt-2">
           <Clock size={14} /><span>Liberação imediata após o pagamento</span>
         </div>
