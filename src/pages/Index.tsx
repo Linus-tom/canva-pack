@@ -224,22 +224,18 @@ const Index = () => {
       </section>
 
       {/* SITES BÔNUS */}
-      <section className="py-16 px-4 bg-card/40">
-        <div className="max-w-6xl mx-auto space-y-6 text-center">
+      <section className="py-16 bg-card/40 space-y-6">
+        <div className="max-w-6xl mx-auto text-center px-4">
           <h3 className="text-2xl sm:text-3xl font-bold">
             <span className="text-cyan-glow">BÔNUS:</span> Veja modelos de <span className="text-cyan-glow">Sites do Canva</span> que você receberá
           </h3>
-
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3 pt-4">
-            {SITES.map((src, i) => (
-              <img key={i} src={src} alt={`Site ${i + 1}`} className="w-full aspect-[5/8] object-cover rounded-lg" loading="lazy" />
-            ))}
-          </div>
-
-          <p className="text-muted-foreground pt-4">
-            Esses são alguns dos <strong className="text-foreground">sites editáveis que você vai receber no Canva Boss</strong>.
-          </p>
         </div>
+
+        <Marquee images={SITES} duration={70} itemClassName="h-80 sm:h-96 md:h-[28rem] aspect-[5/8]" />
+
+        <p className="text-muted-foreground text-center px-4">
+          Esses são alguns dos <strong className="text-foreground">sites editáveis que você vai receber no Canva Boss</strong>.
+        </p>
       </section>
 
       {/* O QUE ESPERAR */}
