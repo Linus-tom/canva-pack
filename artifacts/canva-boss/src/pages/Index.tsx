@@ -183,7 +183,7 @@ const Index = () => {
 
         <ul className="grid sm:grid-cols-2 gap-4 max-w-3xl mx-auto pt-6 px-4">
           {[
-            "+5.000 artes ultraeditadas de qualidade absurda",
+            "+15.000 artes ultraeditadas de qualidade absurda",
             "Edite no celular ou computador em minutos",
             "Designs profissionais que atraem atenção",
             "Economize com designer (pague uma vez e use pra sempre)",
