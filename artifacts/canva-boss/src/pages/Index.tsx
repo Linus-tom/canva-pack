@@ -112,7 +112,7 @@ const Index = () => {
       <header className="bg-gradient-hero py-12 md:py-16 px-4">
         <div className="max-w-4xl mx-auto text-center space-y-6">
           <h1 className="text-2xl sm:text-4xl md:text-5xl font-extrabold text-cyan-glow leading-tight">
-            Transforme suas redes sociais com +5.000 templates prontos no Canva
+            Transforme suas redes sociais com +15.000 templates prontos no Canva
           </h1>
           <p className="text-lg sm:text-2xl font-semibold">
             Ganhe tempo, atraia seguidores e feche mais vendas apenas trocando textos e cores.
@@ -277,7 +277,7 @@ const Index = () => {
               <p className="text-xl font-bold">Pagamento Único</p>
               <p className="text-5xl font-black text-foreground">R$17</p>
               <ul className="space-y-2 pt-2">
-                {["mini pacote de 400 artes", "Acesso Vitalício", "7 Dias de Garantia"].map((t) => (
+                {["pacote de 5000 artes", "Acesso Vitalício", "7 Dias de Garantia"].map((t) => (
                   <li key={t} className="flex items-center gap-2"><Check size={18} className="text-accent" />{t}</li>
                 ))}
                 {["Sem bônus adicionais", "Sem Presentinho Surpresa", "Zero Suporte"].map((t) => (
@@ -298,7 +298,7 @@ const Index = () => {
               <p className="text-xl font-bold">Pacote Completo</p>
               <ul className="space-y-2 pt-2">
                 {[
-                  "Pacote com +5.000 artes",
+                  "Pacote com +15.000 artes",
                   "Acesso Vitalício",
                   "7 Dias de Garantia",
                   "Templates Canva PREMIUM",
@@ -396,7 +396,7 @@ const Index = () => {
       <footer className="py-10 px-4 border-t border-border text-center text-sm text-muted-foreground space-y-2">
         <p className="font-bold text-foreground">Direitos reservados</p>
         <p>CANVA PRO LTDA — 2026</p>
-        <p>Suporte: <a href="mailto:contato@projetotita.com" className="text-primary">suporte@agaf.shop</a></p>
+        <p>Suporte: <a href="mailto:suporte@agaf.shop" className="text-primary">suporte@agaf.shop</a></p>
         <div className="flex items-center justify-center gap-2 pt-2">
           <Clock size={14} /><span>Liberação imediata após o pagamento</span>
         </div>
