@@ -359,7 +359,7 @@ const Index = () => {
             Você pode dar uma olhada no material, ter acesso a todo o pacote com os milhares de artes…
           </p>
           <p>
-            Se por qualquer motivo você não ficar satisfeito ou não se adaptar, basta entrar em contato com a nossa equipe (<a className="text-primary underline" href="mailto:contato@projetotita.com">contato@projetotita.com</a>) dentro do prazo de 7 dias e solicitar o reembolso.
+            Se por qualquer motivo você não ficar satisfeito ou não se adaptar, basta entrar em contato com a nossa equipe (<a className="text-primary underline" href="mailto:contato@projetotita.com">suporte@agaf.store</a>) dentro do prazo de 7 dias e solicitar o reembolso.
           </p>
           <p className="font-bold">Você receberá de volta cada centavo que pagou.</p>
           <p className="text-sm uppercase tracking-widest text-cyan-glow">Garanta seu acesso com 89% OFF!</p>
@@ -396,7 +396,7 @@ const Index = () => {
       <footer className="py-10 px-4 border-t border-border text-center text-sm text-muted-foreground space-y-2">
         <p className="font-bold text-foreground">Direitos reservados</p>
         <p>CANVA PRO LTDA — 2026</p>
-        <p>Suporte: <a href="mailto:suporte@agaf.shop" className="text-primary">suporte@agaf.shop</a></p>
+        <p>Suporte: <a href="mailto:suporte@agaf.shop" className="text-primary">suporte@agaf.store</a></p>
         <div className="flex items-center justify-center gap-2 pt-2">
           <Clock size={14} /><span>Liberação imediata após o pagamento</span>
         </div>
