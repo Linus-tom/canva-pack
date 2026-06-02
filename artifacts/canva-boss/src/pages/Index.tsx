@@ -75,16 +75,16 @@ const ART_CAROUSEL = [
 ];
 
 const SITES = [
-  "https://projetotita.com/wp-content/uploads/2025/12/8.webp",
-  "https://projetotita.com/wp-content/uploads/2025/12/9-1.webp",
-  "https://projetotita.com/wp-content/uploads/2025/12/10.webp",
-  "https://projetotita.com/wp-content/uploads/2025/12/1-1-1.webp",
-  "https://projetotita.com/wp-content/uploads/2025/12/2-2-1.webp",
-  "https://projetotita.com/wp-content/uploads/2025/12/3.webp",
-  "https://projetotita.com/wp-content/uploads/2025/12/4.webp",
-  "https://projetotita.com/wp-content/uploads/2025/12/5.webp",
-  "https://projetotita.com/wp-content/uploads/2025/12/6.webp",
-  "https://projetotita.com/wp-content/uploads/2025/12/7-_3_.webp",
+  "https://udcsokdtdqqdnoqozbxh.supabase.co/storage/v1/object/public/heros-lp/canvapro/1.png",
+  "https://udcsokdtdqqdnoqozbxh.supabase.co/storage/v1/object/public/heros-lp/canvapro/Captura%20de%20tela%202026-05-21%20161639.png",
+  "https://udcsokdtdqqdnoqozbxh.supabase.co/storage/v1/object/public/heros-lp/canvapro/Captura%20de%20tela%202026-05-21%20161753.png",
+  "https://udcsokdtdqqdnoqozbxh.supabase.co/storage/v1/object/public/heros-lp/canvapro/Captura%20de%20tela%202026-05-21%20161943.png",
+  "https://udcsokdtdqqdnoqozbxh.supabase.co/storage/v1/object/public/heros-lp/canvapro/Captura%20de%20tela%202026-05-21%20162047.png",
+  "https://udcsokdtdqqdnoqozbxh.supabase.co/storage/v1/object/public/heros-lp/canvapro/Captura%20de%20tela%202026-05-21%20162131.png",
+  "https://udcsokdtdqqdnoqozbxh.supabase.co/storage/v1/object/public/heros-lp/canvapro/Captura%20de%20tela%202026-05-21%20162226.png",
+  "https://udcsokdtdqqdnoqozbxh.supabase.co/storage/v1/object/public/heros-lp/canvapro/Captura%20de%20tela%202026-05-21%20162407.png",
+  "https://udcsokdtdqqdnoqozbxh.supabase.co/storage/v1/object/public/heros-lp/canvapro/Captura%20de%20tela%202026-06-02%20092132.png",
+  "https://udcsokdtdqqdnoqozbxh.supabase.co/storage/v1/object/public/heros-lp/canvapro/Captura%20de%20tela%202026-06-02%20092209.png",
 ];
 
 const CHECKOUT_URL = "https://pay.kirvano.com/bf80c29f-2f27-4e72-bd59-322714a12cc6";
