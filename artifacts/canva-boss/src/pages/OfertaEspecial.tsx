@@ -3,7 +3,7 @@ import { ArrowRightCircle, CheckCircle2 } from "lucide-react";
 const UPGRADE_URL = "https://pay.kirvano.com/1ff83d6f-f7bf-481b-8da8-91d37248051e";
 const BASIC_URL = "https://pay.kirvano.com/d3700e35-2e55-4e84-999e-d308363957cd";
 
-const HERO_IMG = "https://projetotita.com/wp-content/uploads/2025/12/1-1-1024x1024-2.webp";
+const HERO_IMG = "https://udcsokdtdqqdnoqozbxh.supabase.co/storage/v1/object/public/heros-lp/canvapro/hero%20(1).png";
 
 const CHECK_ITEMS = [
   "Pacote com +5.000 artes",
@@ -27,7 +27,7 @@ const OfertaEspecial = () => {
       {/* TOP RED BANNER */}
       <div className="w-full bg-[#ff0000] py-3 px-4">
         <h2 className="text-center text-2xl sm:text-3xl md:text-4xl font-extrabold text-[#ffea00]">
-          Oferta Especial Liberada 😱
+          🔥 Oferta Exclusiva — Só Aparece Uma Vez!
         </h2>
       </div>
 
@@ -35,18 +35,16 @@ const OfertaEspecial = () => {
       <main className="max-w-3xl mx-auto px-4 py-8 sm:py-10 text-center">
         {/* HEADLINE */}
         <p className="text-2xl sm:text-3xl md:text-4xl font-extrabold leading-tight text-black">
-          Espere! Você e Outras{" "}
-          <span className="text-[#ff0000]">4 Pessoas</span> Receberam uma Oferta
-          Especial de Upgrade!
+          Antes de ir embora — temos uma proposta especial para você!
         </p>
 
         {/* SUBHEAD */}
         <p className="mt-6 text-base sm:text-lg">
-          <span className="underline">Garanta Acesso Vitalício + Bônus</span>
+          <span className="underline">Upgrade completo: Acesso Vitalício + todos os Bônus</span>
         </p>
         <p className="mt-2 text-base sm:text-lg">
-          Exclusivos de{" "}
-          <strong className="text-[#ff0000]">R$37,00</strong> por{" "}
+          De{" "}
+          <strong className="text-[#ff0000]">R$37,00</strong> por apenas{" "}
           <strong className="text-[#1cad1c]">R$24,90!</strong>
         </p>
 
@@ -64,8 +62,8 @@ const OfertaEspecial = () => {
 
         {/* CALLOUT */}
         <p className="mt-6 sm:mt-8 text-base sm:text-lg">
-          Apenas <span className="underline">Aqui e AGORA</span>, Por Apenas{" "}
-          <span className="text-[#1cad1c] font-bold">R$24,90</span> Você Recebe:
+          Só <span className="underline">aqui e agora</span>, por apenas{" "}
+          <span className="text-[#1cad1c] font-bold">R$24,90</span>, você leva:
         </p>
 
         <div className="h-6" />
@@ -101,7 +99,7 @@ const OfertaEspecial = () => {
           href={UPGRADE_URL}
           className="inline-block bg-[#ff0000] hover:bg-[#cc0000] transition text-white font-extrabold uppercase rounded-md px-6 sm:px-8 py-4 text-base sm:text-lg shadow-md"
         >
-          🔥 SIM! QUERO FAZER O UPGRADE!
+          🔥 SIM! QUERO O UPGRADE COMPLETO!
         </a>
 
         {/* SECONDARY CTA — BASIC R$17,00 (BUTTON) */}

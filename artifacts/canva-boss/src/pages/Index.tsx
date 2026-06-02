@@ -112,24 +112,24 @@ const Index = () => {
       <header className="bg-gradient-hero py-12 md:py-16 px-4">
         <div className="max-w-4xl mx-auto text-center space-y-6">
           <h1 className="text-2xl sm:text-4xl md:text-5xl font-extrabold text-cyan-glow leading-tight">
-            Transforme suas redes sociais com +15.000 templates prontos no Canva
+            Chega de post feio: +15.000 templates profissionais prontos pra usar no Canva
           </h1>
           <p className="text-lg sm:text-2xl font-semibold">
-            Ganhe tempo, atraia seguidores e feche mais vendas apenas trocando textos e cores.
+            Economize horas toda semana e publique conteúdo de nível agência — só trocando texto e cores.
           </p>
           <ArrowDown className="mx-auto text-primary arrow-bounce" size={48} />
           <p className="text-sm sm:text-base text-muted-foreground">
-            Descubra como parar de perder horas criando posts e ter conteúdo pronto todos os dias.
+            Veja por que centenas de criadores já pararam de improvisar e passaram a publicar com consistência.
           </p>
 
           <img src={HERO} alt="Canva Boss — pacote de templates" className="mx-auto max-w-full md:max-w-2xl drop-shadow-[0_0_60px_hsl(187_100%_50%/0.3)]" loading="eager" />
 
           <div className="space-y-2 pt-4">
             <p className="text-base sm:text-lg">DE <span className="line-through text-muted-foreground">R$97,00</span></p>
-            <p className="text-xl sm:text-2xl font-bold">POR APENAS</p>
+            <p className="text-xl sm:text-2xl font-bold">HOJE POR APENAS</p>
             <p className="text-6xl sm:text-7xl font-black text-[hsl(var(--price))] drop-shadow-[0_0_30px_hsl(51_100%_55%/0.4)]">R$17</p>
-            <p className="text-2xl sm:text-3xl font-extrabold text-cyan-glow">RISCO ZERO!</p>
-            <p className="text-base sm:text-lg font-bold text-destructive uppercase">⏰ Mas você precisa agir rápido!</p>
+            <p className="text-2xl sm:text-3xl font-extrabold text-cyan-glow">GARANTIA TOTAL!</p>
+            <p className="text-base sm:text-lg font-bold text-destructive uppercase">⏰ Oferta por tempo limitado!</p>
           </div>
 
           <ul className="text-left max-w-md mx-auto space-y-3 pt-4">
@@ -157,10 +157,10 @@ const Index = () => {
       {/* MAIS COMPLETO */}
       <section className="py-16 space-y-6">
         <div className="max-w-5xl mx-auto text-center space-y-4 px-4">
-          <SectionTitle accent>...O KIT MAIS COMPLETO DA INTERNET...</SectionTitle>
-          <h3 className="text-xl sm:text-2xl md:text-3xl font-bold">É um kit de artes profissionais que servem para tudo!</h3>
+          <SectionTitle accent>...O ACERVO MAIS COMPLETO QUE VOCÊ VAI ENCONTRAR...</SectionTitle>
+          <h3 className="text-xl sm:text-2xl md:text-3xl font-bold">Templates com acabamento profissional para qualquer nicho</h3>
           <p className="text-base sm:text-lg text-muted-foreground max-w-3xl mx-auto">
-            Sabe aquela arte ultraeditada que você vê por aí e fica doido para ter uma igual? Está tudo aqui!
+            Aquelas artes com profundidade, iluminação e estilo que parecem feitas por designer? É exatamente o que você vai receber.
           </p>
         </div>
 
@@ -200,11 +200,11 @@ const Index = () => {
       {/* CARROSSEL DE ARTES */}
       <section className="py-16 space-y-6">
         <div className="max-w-6xl mx-auto text-center space-y-4 px-4">
-          <SectionTitle accent>ARTES TÃO PERFEITAS QUANTO AS DO PHOTOSHOP</SectionTitle>
+          <SectionTitle accent>QUALIDADE QUE IMPRESSIONA — TUDO DENTRO DO CANVA</SectionTitle>
           <p className="text-base sm:text-lg max-w-3xl mx-auto">
-            Você vai ter acesso a todos os templates ultraeditados com ambientação e iluminação no Canva.
+            Cada template foi criado com atenção a detalhes: ambientação, iluminação, efeitos e estilo. Nível profissional sem precisar de Photoshop.
           </p>
-          <p className="text-sm text-muted-foreground">Veja as artes ultraeditadas e profissionais no Canva. ⭣</p>
+          <p className="text-sm text-muted-foreground">Dê uma olhada no que você vai ter acesso ⭣</p>
         </div>
 
         <div className="space-y-4">
@@ -247,9 +247,9 @@ const Index = () => {
 
           <div className="grid md:grid-cols-3 gap-4 pt-6 text-left">
             {[
-              { icon: Zap, title: "Qualidade de agência", text: "Milhares de artes profissionais, prontas para usar, com qualidade que normalmente só se vê em agências ou designers avançados." },
-              { icon: ShieldCheck, title: "Tudo já pronto", text: "Cada template já vem com ambientação realista, iluminação, efeitos, profundidade e estilo visual de altíssimo nível." },
-              { icon: InfinityIcon, title: "Direto no Canva", text: "Tudo direto no Canva. Você só precisa trocar os textos, as cores ou as imagens se quiser." },
+              { icon: Zap, title: "Visual de agência", text: "Milhares de templates com acabamento profissional — o tipo de arte que normalmente custa caro contratar ou leva horas para criar." },
+              { icon: ShieldCheck, title: "Pronto para publicar", text: "Cada design já vem completo: fundos trabalhados, tipografia escolhida, efeitos aplicados. Você só personaliza se quiser." },
+              { icon: InfinityIcon, title: "100% no Canva", text: "Sem instalar nada. Acesse, edite e publique direto pelo Canva — no celular ou computador." },
             ].map(({ icon: Icon, title, text }) => (
               <div key={title} className="bg-secondary/60 rounded-xl p-6 border border-border">
                 <Icon className="text-primary mb-3" size={32} />
@@ -341,10 +341,10 @@ const Index = () => {
         <div className="max-w-3xl mx-auto text-center space-y-6">
           <SectionTitle accent>Não leu tudo? Vou resumir para você...</SectionTitle>
           <p className="text-lg">
-            Esse é um pacote <strong>com milhares de artes e arquivos profissionais 100% editáveis</strong> que serve para tudo o que você precisar, poupando muito do seu tempo!
+            São <strong>milhares de templates profissionais, 100% editáveis no Canva</strong>, para você nunca mais ficar em branco na hora de criar conteúdo.
           </p>
           <p className="text-muted-foreground">
-            <strong>Nosso objetivo é simples e claro:</strong> te entregar tudo o que você precisa e já poder utilizar em poucos cliques.
+            <strong>A proposta é direta:</strong> você recebe tudo pronto, personaliza em minutos e publica com confiança.
           </p>
           <CTAButton href="#ofertas">Quero ter acesso ao pacote!</CTAButton>
         </div>
@@ -356,13 +356,13 @@ const Index = () => {
           <ShieldCheck className="mx-auto text-accent" size={64} />
           <SectionTitle>O produto tem <span className="text-accent">garantia incondicional de 7 dias</span></SectionTitle>
           <p className="text-muted-foreground">
-            Você pode dar uma olhada no material, ter acesso a todo o pacote com os milhares de artes…
+            Explore todo o acervo, use os templates, veja se faz sentido para você…
           </p>
           <p>
-            Se por qualquer motivo você não ficar satisfeito ou não se adaptar, basta entrar em contato com a nossa equipe (<a className="text-primary underline" href="mailto:contato@projetotita.com">suporte@agaf.store</a>) dentro do prazo de 7 dias e solicitar o reembolso.
+            Se por qualquer razão não ficou satisfeito, basta mandar um e-mail para (<a className="text-primary underline" href="mailto:suporte@agaf.store">suporte@agaf.store</a>) dentro de 7 dias e devolvemos 100% do seu dinheiro, sem perguntas.
           </p>
-          <p className="font-bold">Você receberá de volta cada centavo que pagou.</p>
-          <p className="text-sm uppercase tracking-widest text-cyan-glow">Garanta seu acesso com 89% OFF!</p>
+          <p className="font-bold">Devolvemos cada centavo — sem burocracia.</p>
+          <p className="text-sm uppercase tracking-widest text-cyan-glow">Acesso liberado com desconto especial!</p>
           <CTAButton href="#ofertas">Quero ter acesso ao pacote!</CTAButton>
         </div>
       </section>
@@ -394,9 +394,9 @@ const Index = () => {
 
       {/* FOOTER */}
       <footer className="py-10 px-4 border-t border-border text-center text-sm text-muted-foreground space-y-2">
-        <p className="font-bold text-foreground">Direitos reservados</p>
-        <p>CANVA PRO LTDA — 2026</p>
-        <p>Suporte: <a href="mailto:suporte@agaf.shop" className="text-primary">suporte@agaf.store</a></p>
+        <p className="font-bold text-foreground">Todos os direitos reservados</p>
+        <p>Canva Boss — 2026</p>
+        <p>Suporte: <a href="mailto:suporte@agaf.store" className="text-primary">suporte@agaf.store</a></p>
         <div className="flex items-center justify-center gap-2 pt-2">
           <Clock size={14} /><span>Liberação imediata após o pagamento</span>
         </div>
