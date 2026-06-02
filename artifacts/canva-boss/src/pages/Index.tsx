@@ -19,7 +19,7 @@ const ALL_ARTS_POOL = [
   "https://udcsokdtdqqdnoqozbxh.supabase.co/storage/v1/object/public/heros-lp/canvapro/demais/14.png",
 ];
 
-const HERO = "https://projetotita.com/wp-content/uploads/2026/01/BOSS-1_11zon-1.webp";
+const HERO = "https://udcsokdtdqqdnoqozbxh.supabase.co/storage/v1/object/public/heros-lp/canvapro/hero%20(1).png";
 
 const ART_GRID_1 = [
   "https://udcsokdtdqqdnoqozbxh.supabase.co/storage/v1/object/public/heros-lp/canvapro/demais/15.png",
