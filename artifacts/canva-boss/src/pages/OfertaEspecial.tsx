@@ -3,7 +3,7 @@ import { ArrowRightCircle, CheckCircle2 } from "lucide-react";
 const UPGRADE_URL = "https://pay.kirvano.com/1ff83d6f-f7bf-481b-8da8-91d37248051e";
 const BASIC_URL = "https://pay.kirvano.com/d3700e35-2e55-4e84-999e-d308363957cd";
 
-const HERO_IMG = "https://udcsokdtdqqdnoqozbxh.supabase.co/storage/v1/object/public/heros-lp/canvapro/hero%20(1).png";
+const HERO_IMG = "https://udcsokdtdqqdnoqozbxh.supabase.co/storage/v1/object/public/heros-lp/canvapro/hero.webp";
 
 const CHECK_ITEMS = [
   "Pacote com +5.000 artes",
