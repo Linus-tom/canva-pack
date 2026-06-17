@@ -359,7 +359,7 @@ const Index = () => {
             Explore todo o acervo, use os templates, veja se faz sentido para você…
           </p>
           <p>
-            Se por qualquer razão não ficou satisfeito, basta mandar um e-mail para (<a className="text-primary underline" href="mailto:suporte@agaf.store">suporte@aglabs.ia.br</a>) dentro de 7 dias e devolvemos 100% do seu dinheiro, sem perguntas.
+            Se por qualquer razão não ficou satisfeito, basta mandar um e-mail para (<a className="text-primary underline" href="mailto:suporte@agaf.store">uporte@afag.shop</a>) dentro de 7 dias e devolvemos 100% do seu dinheiro, sem perguntas.
           </p>
           <p className="font-bold">Devolvemos cada centavo — sem burocracia.</p>
           <p className="text-sm uppercase tracking-widest text-cyan-glow">Acesso liberado com desconto especial!</p>
@@ -396,7 +396,7 @@ const Index = () => {
       <footer className="py-10 px-4 border-t border-border text-center text-sm text-muted-foreground space-y-2">
         <p className="font-bold text-foreground">Todos os direitos reservados</p>
         <p>Canva Pro — 2026</p>
-        <p>Suporte: <a href="mailto:suporte@agaf.store" className="text-primary">suporte@agaf.store</a></p>
+        <p>Suporte: <a href="mailto:suporte@agaf.store" className="text-primary">suporte@afag.shop</a></p>
         <div className="flex items-center justify-center gap-2 pt-2">
           <Clock size={14} /><span>Liberação imediata após o pagamento</span>
         </div>
