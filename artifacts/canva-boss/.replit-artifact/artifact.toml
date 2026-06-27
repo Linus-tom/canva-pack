@@ -1,6 +1,6 @@
 kind = "web"
 previewPath = "/"
-title = "Canva Boss"
+title = "Pack de artes canva"
 version = "1.0.0"
 id = "artifacts/canva-boss"
 router = "path"
