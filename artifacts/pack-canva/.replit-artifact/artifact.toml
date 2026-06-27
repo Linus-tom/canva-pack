@@ -2,7 +2,7 @@ kind = "web"
 previewPath = "/"
 title = "Pack de artes canva"
 version = "1.0.0"
-id = "artifacts/canva-boss"
+id = "artifacts/pack-canva"
 router = "path"
 
 [[integratedSkills]]
@@ -15,11 +15,11 @@ paths = [ "/" ]
 localPort = 18122
 
 [services.development]
-run = "pnpm --filter @workspace/canva-boss run dev"
+run = "pnpm --filter @workspace/pack-canva run dev"
 
 [services.production]
-build = [ "pnpm", "--filter", "@workspace/canva-boss", "run", "build" ]
-publicDir = "artifacts/canva-boss/dist/public"
+build = [ "pnpm", "--filter", "@workspace/pack-canva", "run", "build" ]
+publicDir = "artifacts/pack-canva/dist/public"
 serve = "static"
 
 [[services.production.rewrites]]
