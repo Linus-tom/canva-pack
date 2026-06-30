@@ -15,7 +15,7 @@ const BONUS_ITEMS = [
   "Bônus 01: +100 Carrosséis Lendários",
   "Bônus 02: Acesso a ContentBoss IA",
   "Bônus 03: Pack de Sites editáveis Canva",
-  "Bônus 04: +11.000 Elementos 4K e 3D do Canva (Pack do Tigre)",
+  "Bônus 04: +11.000 Elementos 4K e 3D do Canva",
   "Bônus Extra: Pack esportivo 4K",
   "Bônus Extra: Google Drive da edição(cursos e packs de design)",
   "Presente Surpresa: Você Também Receberá um Presentinho Especial que Preparamos para Você Ainda Hoje",
