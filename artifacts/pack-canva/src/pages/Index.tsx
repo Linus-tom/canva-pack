@@ -242,7 +242,7 @@ const Index = () => {
       <section className="py-16 px-4">
         <div className="max-w-4xl mx-auto text-center space-y-6">
           <SectionTitle>
-            O QUE ESPERAR DO <span className="text-cyan-glow">CANVA BOSS</span>
+            O QUE ESPERAR DO <span className="text-cyan-glow">PACK CANVA</span>
           </SectionTitle>
 
           <div className="grid md:grid-cols-3 gap-4 pt-6 text-left">
@@ -395,7 +395,7 @@ const Index = () => {
       {/* FOOTER */}
       <footer className="py-10 px-4 border-t border-border text-center text-sm text-muted-foreground space-y-2">
         <p className="font-bold text-foreground">Todos os direitos reservados</p>
-        <p>Canva Pro — 2026</p>
+        <p>Pack para Canva — 2026</p>
         <p>Suporte: <a href="mailto:suporte@agaf.store" className="text-primary">suporte@afag.shop</a></p>
         <div className="flex items-center justify-center gap-2 pt-2">
           <Clock size={14} /><span>Liberação imediata após o pagamento</span>
